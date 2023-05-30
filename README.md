@@ -1,6 +1,6 @@
 # Model Prediction of E-Commerce Shipping Data to Increase On Time Delivery Rate
 
-Final Project Data Science Bootcamp Rakamin Academy Batch 31
+Final Project Data Science Bootcamp Rakamin Academy Batch 31 (Group Fantastic Two)
 
 ## Data
 Dataset used in this project is E-Commerce Shipping Data from [Kaggle](https://www.kaggle.com/datasets/prachi13/customer-analytics).
