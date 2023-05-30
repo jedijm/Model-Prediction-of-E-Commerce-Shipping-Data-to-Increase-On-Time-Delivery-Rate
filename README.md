@@ -9,19 +9,19 @@ Dataset used in this project is E-Commerce Shipping Data from [Kaggle](https://w
 An e-commerce company is having problem in the high number of late delivery for 59.7% from total delivery. This issue may subsequently caused a decrease in customer satisfaction and also huge loss due to the high churn rate of customer. In order to find the best solution to this problem and increase the on time delivery rate, the company is using machine learning model to predict which delivery will be on time or late.
 
 ## Exploratory Data Analysis
-- The target feature is Reached.on.time_Y.N, it shows that 59.7% of all the products is delayed in delivery.
-- Warehouse block F keeps the biggest number of products of all warehouse block. But each warehouse blocks show almost equal on time and delay delivery rate.
+- The target feature is **Reached.on.time_Y.N**, it shows that 59.7% of all the products is delayed in delivery.
+- **Warehouse block F** keeps the biggest number of products of all warehouse block. But each warehouse blocks show almost equal on time and delay delivery rate.
 - Ship is the highest mode of shipment used in delivery, but each mode of shipments show a considerably equal on time and delay delivery rate which is the delay rate is higher than the on time rate.
 - Products with low importance category is the highest category with more than 5000 products. The most delayed delivery is the High importance products with 65% delay.
 - all products with 2000-4000 grams is late.
-- ANOVA analysis shows that Discount_offered and Weight_in_gms is two best features related to the target feature.
+- ANOVA analysis shows that **Discount_offered** and **Weight_in_gms** is two best features related to the target feature.
 
 ## Data Pre-Processing
 - The dataset has no missing values and duplicate data
 - Feature Encoding:
-    - One Hot Encoding is used for Warehouse_block & Mode_of_Shipment
-    - Label Encoding is used for Gender & Product_importance
-- Log Transformation is used for Prior_purchases & Discount_offered
+    - One Hot Encoding is used for **Warehouse_block** & **Mode_of_Shipment**
+    - Label Encoding is used for **Gender** & **Product_importance**
+- Log Transformation is used for **Prior_purchases** & **Discount_offered**
 - Outliers are removed with Z-score method due to the less data removed by this method.
 - Class imbalance : Ratio between the target feature is 60:40, which is still in the normal range.
 
